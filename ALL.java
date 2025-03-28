@@ -64,7 +64,14 @@ public class MergeSort {
         scanner.close();
     }
 }
-
+/*Enter the number of elements in the array:
+3
+Enter the elements of the array:
+5
+3
+6
+Sorted Array:
+3 5 6 */
 
 
 
@@ -133,7 +140,15 @@ public class QuickSort {
         scanner.close();
     }
 }
-           
+/*Enter the number of elements in the array:
+3
+Enter the elements of the array:
+3
+
+6
+1
+Sorted Array:
+1 3 6 */           
  
 
 
@@ -420,6 +435,16 @@ public class MaxHeap {
         System.out.println("Current Max: " + maxHeap.getMax());
     } Explain this code line by line please explain clearly 
 }
+/*Heap after insertions:
+[30, 20, 5, 10, 15]
+Extracted Max: 30
+Heap after extraction:
+[20, 15, 5, 10]
+Current Max: 20*/
+
+
+
+
 
 
 //MIN_HEAP
@@ -556,6 +581,16 @@ public class MinHeap {
         System.out.println("Current Min: " + minHeap.getMin());
     }
 }
+/*Heap after insertions:
+[5, 15, 10, 30, 20]
+Extracted Min: 5
+Heap after extraction:
+[10, 15, 20, 30]
+Current Min: 10*/
+
+
+
+
 
 
 //JOB_DEADLINE
@@ -614,6 +649,7 @@ class GfG {
         System.out.println(ans.get(0) + " " + ans.get(1));
     }
 }
+//2 127
 
 
 
@@ -677,7 +713,16 @@ class ShortestPathMatrix {
     }
 }
 
-
+/*Vertex Distance from Source
+0 	 0
+1 	 4
+2 	 12
+3 	 19
+4 	 21
+5 	 11
+6 	 9
+7 	 8
+8 	 14*/
 
 
 
@@ -723,3 +768,13 @@ class ShortestPathList {
         for (int i = 0; i < V; i++) System.out.println(i + " \t " + dist[i]);
     }
 }
+/*Vertex Distance from Source
+0 	 0
+1 	 4
+2 	 12
+3 	 19
+4 	 21
+5 	 11
+6 	 9
+7 	 8
+8 	 148*/
